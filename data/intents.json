@@ -1,0 +1,126 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Hi there"
+      ],
+      "responses": [
+        "Hello! How can I help you with your travel today?",
+        "Hi there! Need help booking flights or hotels?",
+        "Welcome! How can I assist your travel plans?"
+      ]
+    },
+    {
+      "tag": "book_flight",
+      "patterns": [
+        "I want to book a flight",
+        "Book a flight for me",
+        "I need a ticket to Delhi",
+        "Find flights to Mumbai",
+        "Book flight tomorrow",
+        "I want to travel by flight"
+      ],
+      "responses": [
+        "Sure! Please tell me your departure city and destination.",
+        "I can help you book a flight. Where are you travelling from?",
+        "Please share your travel date and destination."
+      ]
+    },
+    {
+      "tag": "book_hotel",
+      "patterns": [
+        "Book a hotel",
+        "Find hotel in Chennai",
+        "I need a hotel room",
+        "Reserve a hotel for me",
+        "Show hotels in Bangalore",
+        "Get me accommodation"
+      ],
+      "responses": [
+        "Sure! Which city do you need the hotel in?",
+        "Please tell me the location and check-in date.",
+        "I can help you find hotels. Where are you staying?"
+      ]
+    },
+    {
+      "tag": "cancel_booking",
+      "patterns": [
+        "Cancel my booking",
+        "I want to cancel my flight",
+        "Cancel my reservation",
+        "Stop my hotel booking",
+        "Cancel ticket"
+      ],
+      "responses": [
+        "Please provide your booking ID to cancel.",
+        "Sure, share your booking reference number.",
+        "I can cancel that for you. Please send the booking ID."
+      ]
+    },
+    {
+      "tag": "flight_status",
+      "patterns": [
+        "Check flight status",
+        "Is my flight delayed",
+        "What is the status of my flight",
+        "Track my flight",
+        "Flight update"
+      ],
+      "responses": [
+        "Please provide your flight number.",
+        "I can check that for you. What is your flight number?",
+        "Share your flight number to track the status."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What is the weather in Delhi",
+        "Weather in Chennai",
+        "Is it raining in Mumbai",
+        "Tell me today's weather",
+        "Temperature in Bangalore"
+      ],
+      "responses": [
+        "Please tell me the city name to check the weather.",
+        "I can check the weather for you. Which city?",
+        "Tell me the location and I will fetch the weather."
+      ]
+    },
+    {
+      "tag": "faq",
+      "patterns": [
+        "What is the refund policy",
+        "How much luggage is allowed",
+        "Can I change my ticket",
+        "What is baggage allowance",
+        "Can I reschedule my flight"
+      ],
+      "responses": [
+        "Refund policies depend on the airline and ticket type.",
+        "Baggage allowance varies by airline. Please check your ticket details.",
+        "Most airlines allow rescheduling with a fee."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great trip.",
+        "Safe travels! See you again.",
+        "Thank you for using the travel assistant."
+      ]
+    }
+  ]
+}
